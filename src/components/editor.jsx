@@ -8,7 +8,7 @@ export default function Editor({ onSubmit }) {
         <>
 
             <div className="editor">
-                <input type="text" className="input"
+                <input type="text" className="input-editor"
                     value={inputMessage}
                     onChange={
                         (e) => setInputMessage(e.target.value)
